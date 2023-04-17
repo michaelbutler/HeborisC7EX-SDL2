@@ -698,8 +698,8 @@ void YGS2kConInput()
 		default:
 		case SDL_CONTROLLER_TYPE_XBOX360:
 		case SDL_CONTROLLER_TYPE_XBOXONE:
-		case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
-		case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//		case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//		case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 			controllerType = YGS_CONTROLLER_XBOX;
 			break;
 
@@ -1055,8 +1055,8 @@ YGS2kEControllerType YGS2kGetConType(const int index)
 	default:
 	case SDL_CONTROLLER_TYPE_XBOX360:
 	case SDL_CONTROLLER_TYPE_XBOXONE:
-	case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
-	case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//	case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//	case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 		return YGS_CONTROLLER_XBOX;
 
 	case SDL_CONTROLLER_TYPE_PS3:
@@ -1119,11 +1119,11 @@ bool YGS2kGetConKeyDesc(const int index, const YGS2kSConKey* const key, const ch
 			default:
 			case SDL_CONTROLLER_TYPE_XBOX360:
 			case SDL_CONTROLLER_TYPE_XBOXONE:
-			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
 				*text = "LT";
 				break;
 
-			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 			case SDL_CONTROLLER_TYPE_PS3:
 			case SDL_CONTROLLER_TYPE_PS4:
 			case SDL_CONTROLLER_TYPE_PS5:
@@ -1141,11 +1141,11 @@ bool YGS2kGetConKeyDesc(const int index, const YGS2kSConKey* const key, const ch
 			default:
 			case SDL_CONTROLLER_TYPE_XBOX360:
 			case SDL_CONTROLLER_TYPE_XBOXONE:
-			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
 				*text = "RT";
 				break;
 
-			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 			case SDL_CONTROLLER_TYPE_PS3:
 			case SDL_CONTROLLER_TYPE_PS4:
 			case SDL_CONTROLLER_TYPE_PS5:
@@ -1195,8 +1195,8 @@ bool YGS2kGetConKeyDesc(const int index, const YGS2kSConKey* const key, const ch
 				*text = "CAPTURE";
 				break;
 			case SDL_CONTROLLER_TYPE_PS5:
-			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
-			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 				*text = "MICROPHONE";
 				break;
 			default:
@@ -1229,8 +1229,8 @@ bool YGS2kGetConKeyDesc(const int index, const YGS2kSConKey* const key, const ch
 				*text = "LS";
 				break;
 
-			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
-			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 			case SDL_CONTROLLER_TYPE_PS3:
 			case SDL_CONTROLLER_TYPE_PS4:
 			case SDL_CONTROLLER_TYPE_PS5:
@@ -1248,8 +1248,8 @@ bool YGS2kGetConKeyDesc(const int index, const YGS2kSConKey* const key, const ch
 				*text = "RS";
 				break;
 
-			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
-			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 			case SDL_CONTROLLER_TYPE_PS3:
 			case SDL_CONTROLLER_TYPE_PS4:
 			case SDL_CONTROLLER_TYPE_PS5:
@@ -1263,11 +1263,11 @@ bool YGS2kGetConKeyDesc(const int index, const YGS2kSConKey* const key, const ch
 			default:
 			case SDL_CONTROLLER_TYPE_XBOX360:
 			case SDL_CONTROLLER_TYPE_XBOXONE:
-			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
 				*text = "LB";
 				break;
 
-			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 			case SDL_CONTROLLER_TYPE_PS3:
 			case SDL_CONTROLLER_TYPE_PS4:
 			case SDL_CONTROLLER_TYPE_PS5:
@@ -1284,11 +1284,11 @@ bool YGS2kGetConKeyDesc(const int index, const YGS2kSConKey* const key, const ch
 			default:
 			case SDL_CONTROLLER_TYPE_XBOX360:
 			case SDL_CONTROLLER_TYPE_XBOXONE:
-			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
+//			case SDL_CONTROLLER_TYPE_AMAZON_LUNA:
 				*text = "RB";
 				break;
 
-			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
+//			case SDL_CONTROLLER_TYPE_GOOGLE_STADIA:
 			case SDL_CONTROLLER_TYPE_PS3:
 			case SDL_CONTROLLER_TYPE_PS4:
 			case SDL_CONTROLLER_TYPE_PS5:
